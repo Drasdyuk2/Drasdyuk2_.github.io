@@ -1,0 +1,1122 @@
+
+body{
+    background: url("../img/images/katana-anime-girl-neon-4k-9s-1920x1080.jpg") no-repeat center center;
+    background-attachment: fixed;
+    background-size: cover;
+    margin: 0;
+
+    background-repeat: no-repeat
+}
+
+*{
+    padding: 0px;
+    margin: 0px;
+    font-family:Arial, Helvetica, sans-serif;
+}
+
+.logos{
+	text-align: center;
+}
+
+/* MENU */
+
+nav{
+	width: 80%;
+	margin: 0 auto;
+	background-color:rgba(255,255,255,0.8);
+	position: flex;
+	top: 0px;
+	border-radius: 40px;
+	border: 1px solid black;	
+}
+
+nav ul{
+	list-style-type: none;
+}
+
+nav ul li{
+	float: left;
+	width: 20%;
+	text-align: center;
+	position: relative;
+	
+}
+
+nav ul::after{
+	content: "";
+	display: table;
+	clear: both;
+}
+
+nav a{
+	display: block;
+	text-decoration: none;
+	color: black;
+	border-bottom: 2px solid transparent;
+	padding: 10px 0px;
+}
+
+nav a:hover{
+	color: blue;
+	border-bottom: 2px solid blue;
+}
+
+/*Partie déroulante */
+
+.sous{
+	display: none;
+	box-shadow: 0px 1px 2px #CCC;
+	background-color: white;
+	position: absolute;
+	width: 100%;
+	z-index: 1000;
+}
+
+nav > ul li:hover .sous{
+	display: block;
+}
+
+.sous li{
+	float: none;
+	width: 100%;
+	text-align: left;
+	padding-left: 15px;
+}
+
+.sous a{
+	padding: 10px 0px;
+	border-bottom:  none;
+}
+
+.sous a:hover{
+	border-bottom: none;
+	background-color: rgba(200,200,200, 0,1);
+}
+.conteneur-flexible-streaming{
+	display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+	align-content: space-around;
+	box-sizing: border-box;
+    background-color:rgba(255,255,255,0.6) ;
+	width: 70%;
+	border: 2px solid black;
+	margin: 15%; /* Permet de centrer le contenu du texte par rapport au width*/
+	margin-top: 3%;
+	padding-bottom: 00px;
+	padding: 20%;
+	border-radius: 50px;
+}
+.conteneur-flexible-critique{
+	display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+	align-content: space-around;
+	box-sizing: border-box;
+    background-color:rgba(255,255,255,0.6) ;
+	width: 70%;
+	border: 2px solid black;
+	margin: 15%; /* Permet de centrer le contenu du texte par rapport au width*/
+	margin-top: 3%;
+	padding-bottom: 00px;
+	padding: 30%;
+	padding-bottom: 79%;
+	border-radius: 50px;
+}
+.conteneur-flexible{
+		display: flex;
+		flex-wrap: wrap;
+		justify-content: space-around;
+		align-content: space-around;
+		box-sizing: border-box;
+		background-color:rgba(255,255,255,0.6) ;
+		width: 70%;
+		border: 2px solid black;
+		margin: 15%; /* Permet de centrer le contenu du texte par rapport au width*/
+		margin-top: 3%;
+		padding-bottom: 0px;
+		padding: 20%;
+		padding-bottom: 50%;
+		border-radius: 50px;
+	
+		
+}
+
+
+.menu {
+    display: none;
+}
+
+	/*index*/
+
+#index{
+	
+	width: 90%;
+	height: 800%,
+}
+	/* Liste Anime */
+
+#imgleftdrstone{
+	display: block	;
+	position: absolute;
+	margin: -16% 0% 0% -18%;
+	border: solid black;
+	border-style: double;
+	border-radius: 5%;
+	
+}
+#positiontextdrstone{
+	display: flex;
+	position: absolute;
+	margin-left: 12.8%;
+	margin-top: -20%;
+	border: black solid;
+	border-radius: 5%;
+	font-style: oblique;
+	font-family:Georgia, 'Times New Roman', Times, serif
+}
+#imgrightdragonball{
+	display: block	;
+	position: absolute;
+	margin: -2% 0% 0% 29%;
+	border: solid black;
+	border-style: double;
+	border-radius: 5%;
+}
+#positiontextdragonball{
+	display: flex;
+	position: absolute;
+	margin-left: 10%;
+	margin-right: 10%;
+	margin-top: 8%;
+	border: black solid;
+	border-radius: 5%;
+	font-style: oblique;
+	font-family:Georgia, 'Times New Roman', Times, serif
+}
+#imgleft_guilty_crown{
+	display: block	;
+	position: absolute;
+	margin: 15% 0% 0% -32%;
+	border: solid black;
+	border-style: double;
+	border-radius: 5%;
+}
+#position_text_guiltycrown{
+	display: flex;
+	position: absolute;
+	margin-left: 14%;
+	margin-top: 40%;
+	border: black solid;
+	border-radius: 3%;
+	font-style: oblique;
+	font-family:Georgia, 'Times New Roman', Times, serif
+}
+#imgright_ace_attorney{
+	display: block	;
+	position: absolute;
+	margin: 30% 0% 0% 13%;
+	border: solid black;
+	border-style: double;
+	border-radius: 5%;
+}
+#position_text_aceattorney{
+	display: flex;
+	position: absolute;
+	margin-left: 8%;
+	margin-right: 10%;
+	margin-top: 69%;
+	border: black solid;
+	border-radius: 5%;
+	font-style: oblique;
+	font-family:Georgia, 'Times New Roman', Times, serif
+}
+/* genre */
+
+.img_genre{
+	display: block	;
+	position: relative;
+	margin: -9% 0% 0% 2%;
+	border: solid black;
+	border-radius: 5%;
+	border-style: double;
+	border-radius: 5%;
+}
+.text_genre{
+	display: flex;
+	align-content: center;
+	padding: 30%;
+	position: absolute;
+    margin: -25% 0% 0% -25%;
+}
+
+
+/* Streaming */
+
+#positioncenter{/*postion of gumgumstreaming*/
+	margin-right: -10%;
+    
+}
+#positiontopleft{/*postion of adkami*/
+	position: absolute;
+    margin: -15% -15%;
+}
+
+#positiontopright{/*postion of toonanime*/
+    position: absolute;
+    margin: 30%;
+}
+#positionbottomright{/*postion of vostfree*/
+    position: absolute;
+    margin: -15% ;
+    margin-left: 28%;
+}
+#positionbottomleft{/*postion of otakufr*/
+    position: absolute;
+    margin: 30% 0% 0% -15%;
+
+}
+
+.videostreaming{
+    position: relative;
+    margin: 10% 0% 0% 10%;
+}
+
+
+/* Critique */
+.criticyt{
+	margin: -80% 0% 200% 1%;
+}
+.rushmanga{
+	position: absolute;
+    margin: 10% 0% 0% -55%;
+}
+#rushmanga{
+	position: absolute;
+	padding: 0% 0% 0% 24%;
+	margin: 9% 0% 0% -16%;
+	text-align: justify;
+}
+#rushmangavid{
+	position: absolute;
+	margin: 25% 0% 0% 32%;
+}
+
+.lermitemoderne{
+	position: absolute;
+	padding: 0% 0% 0% 22%;
+	margin: 47% 0% 0% 35%;
+
+}
+#lermitemoderne{
+	position: absolute;
+	padding: 0% -20% 0% 10%;
+	margin: 50% 0% 0% 2%;
+}
+#lermitemodernevdi{
+	position: absolute;
+	margin: 75% 0% 0% -34%;
+}
+#lechefotaku{
+	position: absolute;
+	margin: 95% 0% 0% 58%;
+	width: 100px;
+	height: 110px;
+}
+#lechefotaku_{
+	position: absolute;
+	margin-top: 95%;
+	margin-left: 12%;
+	margin-right: 4%;
+}
+#lechefotakuvid{
+	margin: 115% 0% 0% 23%;
+	position: absolute;
+	width: 300px ;
+	height: 150px ;
+}
+#alkor{
+	margin: 138% 0% 0% -55%;
+	position: absolute;
+}
+#alkor_{
+	margin: 138% 0% 0% 8%;
+	position: absolute;
+}
+#alkorvid{
+	margin: 158% 0% 0% -25%;
+	position: absolute;
+}
+
+footer{
+    position: absolute;
+   	margin-top: -20% ;
+    background: none;
+    height: auto;
+    width: 100%;
+    font-family: "Open Sans";
+    padding-top: 15%;
+    color: #fff;
+	margin-top:-30% ;
+}
+.footer-content{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    text-align: center;
+}
+.footer-content h3{
+    font-size: 1.8rem;
+    font-weight: 400;
+    text-transform: capitalize;
+    line-height: 3rem;
+}
+.footer-content p{
+    max-width: 500px;
+    margin: 10px auto;
+    line-height: 28px;
+    font-size: 14px;
+	text-shadow: 1px 1px 2px red, 0 0 1em blue, 0 0 0.2em blue;
+}
+.socials{
+    list-style: none;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 1rem 0 3rem 0;
+}
+.socials li{
+    margin: 0 10px;
+}
+.socials a{
+    text-decoration: none;
+    color: #fff;
+}
+.socials a i{
+    font-size: 1.1rem;
+    transition: color .4s ease;
+
+}
+.socials a:hover i{
+    color: aqua;
+}
+
+.footer-bottom{
+    background: #000;
+    width: 100%;
+    padding: 20px 0;
+    text-align: center;
+}
+.footer-bottom p{
+    font-size: 14px;
+    word-spacing: 2px;
+    text-transform: capitalize;
+	text-shadow: 1px 1px 2px red, 0 0 1em blue, 0 0 0.2em blue;
+}
+.footer-bottom span{
+    text-transform: uppercase;
+    opacity: .4;
+    font-weight: 200;
+}
+/* index */
+
+
+
+
+
+/*Responsives design*/
+
+
+
+@media screen and (max-width: 1297px){  
+ 	/* Liste Anime */
+body{
+	display: block;
+}
+#imgleftdrstone{
+	margin-left: -18%;
+	width: 100px;
+	height: 150px;
+	
+}
+#positiontextdrstone{
+	display: inline;
+	margin-left: 15%;
+	margin-right: 15%;
+}
+#imgrightdragonball{
+	margin-left: 25%;
+	margin-top: -2%;
+	width: 100px;
+	height: 150px;
+}
+#positiontextdragonball{
+	display: inline;
+	margin-left: 15%;
+	margin-right: 15%;
+	margin-top: 9%;
+	
+}
+#imgleft_guilty_crown{
+	margin-left: -33%;
+	margin-top: 12%;
+	width: 100px;
+	height: 150px;
+	
+}
+#position_text_guiltycrown{
+	display: inline;
+	margin-top: 35%;
+}
+
+}
+#position_text_aceattorney{
+	display: inline;
+	margin-top: 71%;
+}
+
+ 
+ @media screen and (max-width:1281px){
+	.dim_vod{
+		width: 250px ;
+		height: 150px;
+   
+	}
+   }
+@media screen and (max-width:1207px){
+	.dim_vod{
+		width: 220px ;
+		height: 150px;
+   
+	}
+   }
+ @media screen and (max-width: 1156px){  
+	/*critique*/
+	.dim_vod{
+		width: 250px ;
+		height: 100px;
+	}
+	.criticyt{
+		width: 325px;
+		height: 148px;
+	}
+	.rushmanga{
+		width: 100px;
+		height: 80px ;
+	}
+	#rushmanga{
+		font-size: 13px;
+	}
+	#rushmangavid{
+		margin-top: 30%;
+	}
+	.lermitemoderne{
+		width: 100px;
+		height: 80px ;
+	}
+	#lermitemoderne{
+		font-size: 13px;
+	}
+	#lechefotaku{
+		width: 80px;
+		height: 80px ;
+	}
+	#lechefotaku_{
+		font-size: 13px;
+	}
+	#lechefotakuvid{
+		width: 250px ;
+		height: 100px;
+	}
+	#alkor{
+		width: 100px;
+		height: 80px ;
+	}
+	#alkor_{
+		font-size: 13px;
+	}
+
+	
+	/* Liste Anime */
+
+#position_text_guiltycrown{
+   display: inline;
+   margin-top: 40%;
+   margin-left: 15%;
+   margin-right: 15%;
+}
+
+
+}
+@media screen and (max-width: 1100px){
+
+.videostreaming{
+    margin-left: 5%;
+}
+ }
+@media screen and (max-width: 1053px){  
+	.videostreaming{
+		display: none;
+	}
+	
+	/* Liste Anime */
+body{
+	display: inline;
+}
+	#imgleftdrstone{
+		width: 100px;
+		height: 100px;
+		
+	}
+	#positiontextdrstone{
+
+	margin-right: 2%;
+		
+		
+	}
+	#imgrightdragonball{
+		display: block;
+		width: 100px;
+		height: 100px;
+	}
+	#positiontextdragonball{
+		display: inline-block;
+		
+	}
+	#imgleft_guilty_crown{
+		margin-top: 15%;
+		width: 100px;
+		height: 100px;
+	}
+	#position_text_guiltycrown{
+		margin-right: 3%;
+	}
+	#imgright_ace_attorney{
+		margin-left: 9%;
+		width: 100px;
+		height: 100px;
+	}
+	#position_text_aceattorney{
+		margin-left: 4%;
+		margin-right: 16%;
+		margin-bottom: 2%;
+	
+		display: block;
+	}
+}
+
+@media screen and (max-width: 950px){
+	.img_genre{
+		width: 406px;
+		height: 321px;
+	}
+	.img_shonenseinen{
+		width: 506px;
+		height: 321px;
+	}
+	.text_genre{
+		font-size: 14px;
+	}
+#imgleftdrstone{
+	width: 75px;
+	height: 75px;
+	
+}
+#positiontextdrstone{
+	font-size: 12px;
+	margin-right: 2%;
+	margin-top: -22%;
+	
+}
+#imgrightdragonball{
+	display: block;
+	width: 75px;
+	height: 75px;
+	
+}
+#positiontextdragonball{
+	display: block;
+	font-size: 12px;
+	margin-top: 5%;
+}
+#imgleft_guilty_crown{
+	margin-top: 15%;
+	width: 75px;
+	height: 75px;
+}
+#position_text_guiltycrown{
+	margin-top: 40%;
+	font-size: 12px;
+}
+#imgright_ace_attorney{
+	
+	margin-left: 9%;
+	width: 75px;
+	height: 75px;
+	
+}
+#position_text_aceattorney{
+	font-size: 12px;
+}
+/*critique*/
+.dim_vod{
+	width: 250px ;
+	height: 80px;
+}
+.criticyt{
+	width: 325px;
+	height: 148px;
+}
+.rushmanga{
+	width: 100px;
+	height: 80px ;
+}
+#rushmanga{
+	font-size: 13px;
+}
+#rushmangavid{
+	margin-top: 30%;
+}
+.lermitemoderne{
+	width: 100px;
+	height: 80px ;
+}
+#lermitemoderne{
+	font-size: 13px;
+}
+#lechefotaku{
+	width: 80px;
+	height: 80px ;
+}
+#lechefotaku_{
+	font-size: 13px;
+}
+#lechefotakuvid{
+	width: 250px ;
+	height: 100px;
+}
+#alkor{
+	width: 100px;
+	height: 80px ;
+}
+#alkor_{
+	font-size: 13px;
+}
+ }
+ @media screen and (max-width: 950px){
+	
+	/*critique*/
+.dim_vod{
+	width: 250px ;
+	height: 80px;
+}
+.criticyt{
+	width: 275px;
+	height: 148px;
+}
+.rushmanga{
+	width: 80px;
+	height: 75px ;
+}
+#rushmanga{
+	font-size: 11px;
+}
+#rushmangavid{
+	margin-top: 30%;
+}
+.lermitemoderne{
+	width: 60px;
+	height: 75px ;
+}
+#lermitemoderne{
+	font-size: 11px;
+}
+#lechefotaku{
+	width: 60px;
+	height: 60px ;
+}
+#lechefotaku_{
+	font-size: 11px;
+}
+#lechefotakuvid{
+	width: 250px ;
+	height: 100px;
+	margin-left: 10%;
+}
+#alkor{
+	width: 80px;
+	height: 75px ;
+}
+#alkor_{
+	font-size: 11px;
+} 
+ }
+ @media screen and (max-width:851px){
+/* Streaming */
+
+#positioncenter{/*postion of gumgumstreaming*/
+	width: 150px;
+	height: 100px;
+}
+#positiontopleft{/*postion of adkami*/
+	width: 140px;
+	height: 51px;
+	margin-left: -22%;
+}
+
+#positiontopright{/*postion of toonanime*/
+    width: 140px;
+	height: 51px;
+	margin-top: 25%;
+	margin-left: 23%;
+}
+#positionbottomright{/*postion of vostfree*/
+    width: 140px;
+	height: 51px;
+	margin-left: 22%;
+}
+#positionbottomleft{/*postion of otakufr*/
+    width: 140px;
+	height: 51px;
+	margin-top: 25%;
+	margin-left: -23%;
+}	 
+ }
+ @media screen and (max-width: 790px){
+	 #text_shoujo{
+		 font-size: 11px;
+	 }
+	 	/*critique*/
+.dim_vod{
+	width: 250px ;
+	height: 80px;
+}
+.criticyt{
+	width: 275px;
+	height: 148px;
+}
+.rushmanga{
+	width: 50px;
+	height: 50px ; ;
+}
+#rushmanga{
+	font-size: 10px;
+}
+#rushmangavid{
+	margin-top: 30%;
+}
+.lermitemoderne{
+	width: 50px;
+	height: 50px ;
+	margin-top: 55%;
+}
+#lermitemoderne{
+	font-size: 10px;
+	margin-top: 55%;
+}
+#lechefotaku{
+	width: 50px;
+	height: 50px ; ;
+}
+#lechefotaku_{
+	font-size: 10px;
+}
+#lechefotakuvid{
+	width: 250px ;
+	height: 100px;
+	margin-left: 10%;
+}
+#alkor{
+	width: 50px;
+	height: 50px ;
+}
+#alkor_{
+	font-size: 10px;
+} 
+ }
+@media screen and (max-width: 760px){
+	/*genre*/
+	}
+	.img_shonenseinen{
+		width: 406px;
+		height: 321px;
+	}
+
+	/*list anime*/
+	#imgleftdrstone{
+		width: 75px;
+		height: 75px;
+		margin-left: -20%;
+		
+	}
+	#positiontextdrstone{
+		font-size: 10px;
+		margin-right: 2%;
+		margin-top: -22%;
+		
+	}
+	#imgrightdragonball{
+		display: block;
+		width: 75px;
+		height: 75px;
+		
+	}
+	#positiontextdragonball{
+		display: block;
+		font-size: 10px;
+		margin-top: 5%;
+	}
+	#imgleft_guilty_crown{
+		margin-top: 15%;
+		margin-left: -35%;
+		width: 75px;
+		height: 75px;
+	}
+	#position_text_guiltycrown{
+		margin-top: 40%;
+		font-size: 10px;
+	}
+	#imgright_ace_attorney{
+		margin-left: 9%;
+		width: 75px;
+		height: 75px;
+	}
+	#position_text_aceattorney{
+		font-size: 10px;
+	
+		
+	}
+@media screen and (max-width: 650px){
+	.img_genre{
+		width: 306px;
+		height: 300px;
+	}
+	/*.img_shonenseinen{
+		width: 506px;
+		height: 321px;
+	}
+	.text_genre{
+		font-size: 14px;
+	}*/
+
+	/*critique*/
+	.dim_vod{
+		width: 120px ;
+		height: 70px;
+	}
+	.criticyt{
+		width: 275px;
+		height: 148px;
+	}
+	#rushmangavid{
+		margin-top: 30%;
+	}
+	#lermitemoderne{
+		font-size: 9px;
+		margin-left: -5%;
+	}
+	#lechefotakuvid{
+		width: 120px ;
+		height: 70px;
+		margin-left: 10%;
+	}
+	
+	}
+@media screen and (max-width: 605px){
+	/*critique*/
+	.dim_vod{
+		display: none;
+	}
+	#lechefotakuvid{
+		display: none;
+	}
+	/*genre*/
+	.img_genre{
+		width: 250px;
+		height: 250px;
+	}
+	.img_shonenseinen{
+		width: 306px;
+		height: 150px;
+	}
+	.text_genre{
+		font-size: 11px;
+	}
+	#text_shoujo{
+		font-size: 10px;
+		margin-top: -30%;
+	}
+
+		/*liste anime*/
+	#imgleftdrstone{
+		width: 55px;
+		height: 75px;
+		margin-left: -20%;
+		
+	}
+	#positiontextdrstone{
+		font-size: 9px;
+		margin-right: 2%;
+		margin-top: -22%;
+		
+	}
+	#imgrightdragonball{
+		display: block;
+		width: 55px;
+		height: 75px;
+		
+	}
+	#positiontextdragonball{
+		display: block;
+		font-size: 9px;
+		margin-top: 5%;
+	}
+	#imgleft_guilty_crown{
+		margin-top: 15%;
+		margin-left: -35%;
+		width: 55px;
+		height: 75px;
+	}
+	#position_text_guiltycrown{
+		margin-top: 40%;
+		font-size: 9px;
+	}
+	#imgright_ace_attorney{
+		margin-left: 9%;
+		width: 55px;
+		height: 75px;
+	}
+	#position_text_aceattorney{
+		font-size: 9px;
+		margin-top: 80%;
+	
+		
+	}
+}
+
+@media screen and (max-width: 551px){
+	/* Streaming */
+
+#positioncenter{/*postion of gumgumstreaming*/
+	width: 110px;
+	height: 25px;
+}
+#positiontopleft{/*postion of adkami*/
+	width: 110px;
+	height: 25px;
+	margin-left: -16%;
+}
+
+#positiontopright{/*postion of toonanime*/
+    width: 110px;
+	height: 25px;
+	margin-top: 28%;
+	margin-left: 23%;
+}
+#positionbottomright{/*postion of vostfree*/
+    width: 110px;
+	height: 25px;
+	margin-left: 22%;
+}
+#positionbottomleft{/*postion of otakufr*/
+    width: 110px;
+	height: 25px;
+	margin-top: 28%;
+	margin-left: -16%;
+}	 
+	
+	/*critique*/
+	.criticyt{
+		width: 255px;
+		height: 128px;
+	}
+	
+	#lermitemoderne{
+		font-size: 10px;
+		margin-left: -6%;
+		margin-right: 8%;
+	}
+
+
+	#imgleftdrstone{
+		width: 35px;
+		height: 55px;
+		margin-left: -20%;
+		
+	}
+	#positiontextdrstone{
+		font-size: 6px;
+		margin-right: 2%;
+		margin-top: -22%;
+		
+	}
+	#imgrightdragonball{
+		display: block;
+		width: 35px;
+		height: 55px;
+		
+	}
+	#positiontextdragonball{
+		display: block;
+		font-size: 6px;
+		margin-top: 5%;
+	}
+	#imgleft_guilty_crown{
+		margin-top: 15%;
+		margin-left: -35%;
+		width: 35px;
+		height: 55px;
+	}
+	#position_text_guiltycrown{
+		margin-top: 40%;
+		font-size: 6px;
+	}
+	#imgright_ace_attorney{
+		margin-left: 9%;
+		width: 35px;
+		height: 55px;
+	}
+	#position_text_aceattorney{
+		font-size: 6px;
+		margin-top: 80%;
+	
+		
+	}
+}
+@media screen and (max-width: 527px){
+/*genre*/
+.img_genre{
+	width: 300px;
+	height: 250px;
+}
+.img_shonenseinen{
+	width: 280px;
+	height: 180px;
+}
+.text_genre{
+	font-size: 11px;
+}
+#text_shoujo{
+	font-size: 9px;
+	margin-top: -30%;
+}
+}
+
+@media screen and (max-width: 482px){
+	.img_genre{
+		width: 250px;
+		height: 150px;
+	}
+	.img_shonenseinen{
+		width: 250px;
+		height: 180px;
+	}
+	.text_genre{
+		font-size: 11px;
+	}
+	#text_shoujo{
+		font-size: 8px;
+		margin-top: -30%;
+	}
+}
